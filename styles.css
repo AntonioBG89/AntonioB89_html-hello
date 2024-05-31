@@ -11,7 +11,7 @@ p, .user-data {
 .post {
     background-color: white;
     margin-top: 50px;
-    width: 750px;
+    width: 75%;
     height: 1000px;
 }
 .header-post{
@@ -42,7 +42,7 @@ p, .user-data {
     justify-content: center;
 }
 img {
-    width: 750px;
+    width: 100%;
     object-fit: contain;
     
 }
