@@ -1,7 +1,5 @@
 body {
     background-color: black;
-    display: flex;
-    justify-content: center;
 }
 p, .user-data {
     font-family: "Roboto", sans-serif;
@@ -10,9 +8,10 @@ p, .user-data {
 }
 .post {
     background-color: white;
+    margin: auto;
     margin-top: 50px;
     width: 75%;
-    height: 1000px;
+    height: auto;
 }
 .header-post{
     height: 100px;
@@ -37,14 +36,16 @@ p, .user-data {
     margin: 7px 25px;
 }
 .img-post{
-    display: flex;
     background-color: gainsboro;
-    justify-content: center;
 }
 img {
     width: 100%;
-    object-fit: contain;
-    
+    max-height: 600px;
+    min-height: 400px;
+    object-fit: cover;
+}
+.post-body {
+    padding: 20px 20px;
 }
 .post-icons {
     display: flex;
@@ -53,15 +54,10 @@ img {
 }
 .post-icons-start {
     display: flex;
-    margin-left: 18px;
 }
-.post-icons-start-heart, .post-icons-start-globe, .post-icons-start-send, .post-icons-end {
-    margin: 30px 11px 30px;
-}
-.post-icons-end {
-    display: flex;
-    margin-right: 25px;
+.post-icons-start-globe, .post-icons-start-send, .post-icons-end {
+    margin-left: 17px;
 }
 .post-text{
-    margin: 7px 25px;
+    padding-top: 7px;
 }
